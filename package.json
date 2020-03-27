@@ -11,7 +11,11 @@
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
-    "vuex": "^3.1.2"
+    "vuex": "^3.1.2",
+    "axios": "^0.19.0",
+    "vue-html-to-paper": "^1.1.1",
+    "vuex-persist": "^2.1.1",
+    "js-cookie": "^2.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
