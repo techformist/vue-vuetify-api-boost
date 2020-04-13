@@ -9,7 +9,7 @@ This repository is a starter project based on -
 1. Vuetify + standard layouts + dashboard
 1. Axios for using APIs
 
-The objective is to keep things simple for typical client/server (may I say 'pseudo-enterprise') projects.
+The objective is to keep things simple for simple client/server projects.
 
 ## Project setup
 
