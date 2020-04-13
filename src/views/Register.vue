@@ -9,8 +9,7 @@
         >
           <v-row justify="center" dense>
             <v-col cols="12" md="6" class="info-text mb-5"
-              >Fill up some basic information and we will set you up in the
-              org.</v-col
+              >Fill up some basic information and we will set you up.</v-col
             >
             <v-col md="12"></v-col>
 
