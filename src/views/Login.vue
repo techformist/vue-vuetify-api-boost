@@ -2,11 +2,7 @@
   <Panel title="Login">
     <template slot="content">
       <v-container grid-list-md class="pt-5">
-        <v-form
-          ref="form"
-          v-model="validInput"
-          @submit.prevent="validateAndLogin"
-        >
+        <v-form ref="form" v-model="validInput" @submit.prevent="validateAndLogin">
           <v-row justify="center">
             <v-col cols="12" md="6" class="pt-3">
               <v-text-field
@@ -44,15 +40,14 @@
                   class="pt-3 caption grey--text text-darken-5"
                   style="text-decoration: none"
                   @click="confirmAndPassReset"
-                  >Forgot Password?</a
-                >
+                >Forgot Password?</a>
               </span>
             </v-col>
             <v-col md="12"></v-col>
-            <v-col cols="12" md="6" class="info-text mt-5"
-              >You should've confirmed your registration through email before
-              logging into the application.</v-col
-            >
+            <v-col cols="12" md="6" class="info-text mt-5">
+              You should've confirmed your registration through email before
+              logging into the application.
+            </v-col>
           </v-row>
         </v-form>
       </v-container>
@@ -97,7 +92,7 @@ export default {
 
     validateAndLogin() {
       if (this.$refs.form.validate()) {
-        this.login();
+        // this.login();
       }
     },
 
